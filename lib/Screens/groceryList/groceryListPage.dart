@@ -65,8 +65,4 @@ class _GroceryListPageState extends State<GroceryListPage> {
         }),
     );
   }
-
-  void getItemBuilder() {
-
-  }
 }
