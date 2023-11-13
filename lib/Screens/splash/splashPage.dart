@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_assignment_1/Screens/calculator/calculatorPage.dart';
 import 'package:flutter_assignment_1/Screens/groceryList/groceryListPage.dart';
 import 'dart:async';
 
@@ -21,7 +22,7 @@ class _SplashPageState extends State<SplashPage> {
     Timer(
         const Duration(seconds: 2),
         () => Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (context) => const GroceryListPage(title: 'Grocery List'))));
+            context, MaterialPageRoute(builder: (context) => const CalculatorPage(title: 'Calculator'))));
   }
 
   @override
